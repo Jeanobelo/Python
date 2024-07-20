@@ -19,10 +19,7 @@ cursor.execute('''
 conexao.commit()
 
 
-
-criar a extrutura que mostrara o banco de dados
-
-
+#criar a extrutura que mostrara o banco de dados
 
 
 
@@ -43,8 +40,6 @@ def exibir_grafico():
         plt.show()
     else:
         messagebox.showwarning("Erro", "Nenhum dado encontrado para exibir.")
-
-
 
 
 
